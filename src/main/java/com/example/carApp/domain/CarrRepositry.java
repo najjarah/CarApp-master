@@ -14,7 +14,7 @@ import java.util.List;
 
 
 public interface CarrRepositry extends CrudRepository <Car, Long> {
-
+/*
 	
 	
 	  // Fetch cars by brand
@@ -39,7 +39,7 @@ public interface CarrRepositry extends CrudRepository <Car, Long> {
 	  // Fetch cars by brand using SQL
 //	  @Query("select c from Car c where c.brand like %?1")
 //	  List<Car> findByBrandEndsWith(String brand);
-
+*/
 
 }
 
