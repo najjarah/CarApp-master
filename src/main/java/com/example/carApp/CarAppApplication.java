@@ -1,6 +1,6 @@
 package com.example.carApp;
 
-//      import java.util.List;
+      import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -9,7 +9,6 @@ import org.springframework.boot.CommandLineRunner;
       import org.springframework.context.annotation.Bean;
 
       import com.example.carApp.domain.*;
-      import com.example.carApp.*;
       import com.example.carApp.domain.CarrRepositry;
 
       @SpringBootApplication
@@ -32,7 +31,7 @@ import org.springframework.boot.CommandLineRunner;
              "SSJ-3002", 2014, 29000));    
              repository.save(new Car("Toyota", "Prius", "Silver",
              "KKO-0212", 2018, 39000));
-//               repository.findByBrandEndsWith("d"); 
+
           }; 
         } 
       }
